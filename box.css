@@ -201,6 +201,12 @@ font-size: 72px;
 line-height: 84px;
 color: #292E3D;
 }
+img#arrowb{
+    padding-right: 10px;
+}
+img#arrown{
+    padding-left: 10px;
+}
 h2#h2{
 position: absolute;
 height: 42px;
