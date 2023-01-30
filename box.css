@@ -2,15 +2,15 @@ img#tbox{
 position: absolute;
 width: 38px;
 height: 47.5px;
-left: 112px;
-top: 16px;
+margin-left: 112px;
+margin-top: 16px;
 }
 h2#thebox{
 position: absolute;
 width: 111px;
 height: 35px;
-left: 164px;
-top: 22px;
+margin-left: 164px;
+margin-top: 22px;
 font-family: 'Work Sans';
 font-style: italic;
 font-weight: 700;
@@ -18,7 +18,7 @@ font-size: 30px;
 line-height: 35px;
 color: #2947A9;
 }
-h4#hm{
+a#hm{
 width: 52px;
 height: 21px;
 font-family: 'Work Sans';
@@ -28,8 +28,10 @@ font-size: 18px;
 line-height: 21px;
 color: #14171F;
 flex: none;
+text-decoration: none;
+padding-right: 50px;
 }
-h4#abt{
+a#abt{
 width: 81px;
 height: 21px;
 font-family: 'Work Sans';
@@ -39,8 +41,10 @@ font-size: 18px;
 line-height: 21px;
 color: #14171F;
 flex: none;
+text-decoration: none;
+padding-right: 50px;
 }
-h4#ps{
+a#ps{
 width: 72px;
 height: 21px;
 font-family: 'Work Sans';
@@ -50,10 +54,117 @@ font-size: 18px;
 line-height: 21px;
 color: #14171F;
 flex: none;
+text-decoration: none;
+padding-right: 50px;
 }
-h4#sr{
-
+a#sr{
+width: 74px;
+height: 21px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #14171F;
+flex: none;
+text-decoration: none;
+padding-right: 50px;
 }
-h4#cu{
-
+a#cu{
+width: 98px;
+height: 21px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+color: #F9995D;
+flex: none;
+text-decoration: none;
 }
+div#class{
+    margin-left: 805px;
+    margin-top: 22px;
+   
+}
+nav#nav{
+position: absolute;
+height: 80px;
+left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+background: #FFFFFF;
+display:inline-block;
+}
+img#hero{
+position: absolute;
+height: 646px;
+width: 100%;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 70px;
+/* background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.jpg); */
+}
+h2#h2{
+position: absolute;
+height: 42px;
+margin-left: 584px;
+margin-right: 585px;
+margin-top: 775px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #292E3D;
+}
+div.box{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 20px 20px 40px;
+position: absolute;
+width: 292px;
+height: 197px;
+margin-left: 216px;
+margin-top: 850px;
+background: #FFFFFF;
+border: 1.4px solid #E0E3EB;
+border-radius: 4px;
+}
+div.box2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 20px 40px;
+    position: absolute;
+    width: 292px;
+    height: 197px;
+    margin-left: 575px;
+    margin-top: 850px;
+    background: #FFFFFF;
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+    }
+    div.box3{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 20px 40px;
+        gap: 18px;
+        position: absolute;
+        width: 292px;
+        height: 197px;
+        margin-left: 935px;
+        margin-top: 850px;
+        background: #FFFFFF;
+        border: 1.4px solid #E0E3EB;
+        border-radius: 4px;
+        }
