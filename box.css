@@ -2,14 +2,14 @@ img#tbox{
 position: absolute;
 width: 38px;
 height: 47.5px;
-margin-left: 112px;
-margin-top: 16px;
+left: 112px;
+top: 16px;
 }
 h2#thebox{
 position: absolute;
 width: 111px;
 height: 35px;
-margin-left: 164px;
+left: 164px;
 margin-top: 22px;
 font-family: 'Work Sans';
 font-style: italic;
@@ -91,26 +91,122 @@ nav#nav{
 position: absolute;
 height: 80px;
 left: 0px;
-margin-right: 0px;
-margin-top: 0px;
+right: 0px;
+top: 0px;
 background: #FFFFFF;
 display:inline-block;
+}
+div#img{
+    
+/* background-image: url("./images/crop.jpeg");
+position: absolute;
+height: 646px;
+width: 1440px;
+left: 0px;
+right: 0px;
+top: 70px;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.jpeg);
+        */
 }
 img#hero{
 position: absolute;
 height: 646px;
 width: 100%;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 70px;
-/* background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.jpg); */
+left: 0px;
+right: 0px;
+top: 70px;
+background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.jpeg);
+
+}
+div#feat{
+    position: absolute;
+    width: 416px;
+    height: 147px;
+    left: 1060px;
+    top: 530px;  
+    background: #3559C7;
+    border-radius: 2px 2px 0px 0px;
+    align-items: center;
+    
+}
+button#back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 20px;
+    position: absolute;
+    width: 208px;
+    height: 40px;
+    right: 207px;
+    bottom: -40px;
+    background: #292E3D;
+   color:white;
+}
+button#next{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 20px;
+position: absolute;
+width: 207px;
+height: 40px;
+right: 0px;
+bottom: -40px;
+background: #292E3D;
+color: white;
+}
+/* div#project{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* padding: 20px 10px 10px; */
+/* position: absolute;
+width: 416px;
+height: 150px;
+right: -36px;
+bottom: -70px;
+background: #3559C7;
+border-radius: 2px 2px 0px 0px;
+} */ 
+h4#title{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
+p#uni{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color:#FFFFFF; 
+}
+p#things{
+position: absolute;
+width: 556px;
+height: 168px;
+left: 196px;
+top: 265px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+color: #292E3D;
 }
 h2#h2{
 position: absolute;
 height: 42px;
-margin-left: 584px;
-margin-right: 585px;
-margin-top: 775px;
+left: 584px;
+right: 585px;
+top: 775px;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
@@ -129,8 +225,8 @@ padding: 20px 20px 40px;
 position: absolute;
 width: 292px;
 height: 197px;
-margin-left: 216px;
-margin-top: 850px;
+left: 216px;
+top: 850px;
 background: #FFFFFF;
 border: 1.4px solid #E0E3EB;
 border-radius: 4px;
@@ -145,26 +241,25 @@ div.box2{
     position: absolute;
     width: 292px;
     height: 197px;
-    margin-left: 575px;
-    margin-top: 850px;
+    left: 575px;
+    top: 850px;
     background: #FFFFFF;
     border: 1.4px solid #E0E3EB;
     border-radius: 4px;
-    }
-    div.box3{
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 20px 20px 40px;
-        gap: 18px;
-        position: absolute;
-        width: 292px;
-        height: 197px;
-        margin-left: 935px;
-        margin-top: 850px;
-        background: #FFFFFF;
-        border: 1.4px solid #E0E3EB;
-        border-radius: 4px;
-        }
+}
+div.box3{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 20px 40px;
+    position: absolute;
+    width: 292px;
+    height: 197px;
+    left: 935px;
+    top: 850px;
+    background: #FFFFFF;
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+}
