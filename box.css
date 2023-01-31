@@ -212,7 +212,7 @@ position: absolute;
 height: 42px;
 left: 584px;
 right: 585px;
-top: 775px;
+top: 735px;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
@@ -220,7 +220,107 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 color: #292E3D;
+
 }
+img#icon1{
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+}
+img#icon2{
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+}
+img#icon3{
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+}
+p#nullam{
+position:absolute;
+width: 254px;
+height: 38px;
+top: 105px;
+left:10px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #858EAD;
+}
+p#cursus{
+position:absolute;
+width: 254px;
+height: 38px;
+top: 105px;
+left:10px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #858EAD;
+}
+p#ipsum{
+position:absolute;
+width: 254px;
+height: 38px;
+top: 105px;
+left:10px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #858EAD;
+}
+h3#bestservices{
+position: absolute;
+top:50px;
+left:10px;
+width: 135px;
+height: 23px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: #3D445C;
+}
+h3#bestteams{
+position: absolute;
+top:50px;
+left:10px;
+width: 135px;
+height: 23px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: #3D445C;
+}
+h3#bestdesigns{
+    position: absolute;
+    top:50px;
+    left:10px;
+    width: 135px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3D445C;
+    }
 div.box{
 box-sizing: border-box;
 display: flex;
