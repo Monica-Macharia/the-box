@@ -664,6 +664,118 @@ border: 1px solid #FFFFFF;
 box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
 border-radius: 4px;
 }
+div#complete{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 2px;
+    
+    position: absolute;
+    width: 361px;
+    height: 155px;
+    left: calc(50% - 361px/2 - 327.5px);
+    top: 221px;
+    
+    background: #FFFFFF;
+    /* Neutral/White */
+    
+    border: 1px solid #FFFFFF;
+    /* Shadow 2 */
+    
+    box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+    border-radius: 4px;
+}
+div#awards{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 30px;
+gap: 2px;
+position: absolute;
+width: 276px;
+height: 155px;
+left: calc(50% - 276px/2 - 124px);
+top: 364px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+}
+div#business{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 30px;
+gap: 2px;
+position: absolute;
+width: 333px;
+height: 155px;
+left: calc(50% - 333px/2 - 292.5px);
+top: 469px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1), 0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+border-radius: 4px;
+}
+h2#84{
+width: 115px;
+height: 65px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+color: #292E3D;
+}
+h2#123{
+width: 115px;
+height: 65px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: #292E3D;
+}
+h2#37{
+width: 115px;
+height: 65px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+color: #292E3D;
+}
+h2#30{
+width: 115px;
+height: 65px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+display: flex;
+align-items: flex-end;
+color: #292E3D;
+}
 img#hands{
 position: absolute;
 width: 97px;
