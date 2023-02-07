@@ -1,4 +1,83 @@
+html *{
+    font-family: 'Playfair Display', serif;
+
+}
+body{
+    /* display: flex; */
+    display: grid;
+    align-items: left;
+    grid-template-areas:
+    "firstpage"
+    "secondpage"
+    "thirdpage"
+    "fourthpage"
+    "lastpage"
+    "footer";
+   
+}
+  /* div#firstpage{
+        order: 1;
+    }
+    div#secondpage{
+       order: 2;
+        background: #FFFFFF;
+       
+    }
+   div#thirdpage{
+        order: 3;
+        background: #F6F8F7;
+      
+    } */
+    /* div#fourthpage{
+        grid-area: fourthpage;
+        background: #FFFFFF;
+        grid-row: 4 / 2;
+    }
+    div#lastpage{
+        grid-area: lastpage;
+        background: #F6F8F7;
+        grid-row: 5 / 2;
+    
+    }
+    footer#footer{
+        grid-area: footer;
+         grid-row: 5 / 2;
+    } */
+   
+    div#firstpage{
+        grid-area: firstpage;
+        grid-row: 1 / 2;
+    }
+    div#secondpage{
+        grid-area: secondpage;
+        background: #FFFFFF;
+        grid-row: 2 / 2;
+    }
+   div#thirdpage{
+        grid-area: thirdpage;
+        background: #F6F8F7;
+        grid-row: 3 / 2;
+    }
+    div#fourthpage{
+        grid-area: fourthpage;
+        background: #FFFFFF;
+        grid-row: 4 / 2;
+    }
+    div#lastpage{
+        grid-area: lastpage;
+        background: #F6F8F7;
+        grid-row: 5 / 2;
+    }
+    footer#footer{
+        grid-area: footer;
+         grid-row: 5 / 2;
+         background: #FFFFFF;
+    }  */
+
+
+
 @media screen and (max-width: 480px){
+
     body{
         width: 50%;
     }
@@ -37,7 +116,7 @@ width: 111px;
 height: 35px;
 left: 164px;
 margin-top: 22px;
-font-family: 'Work Sans';
+/* font-family: 'Work Sans'; */
 font-style: italic;
 font-weight: 700;
 font-size: 30px;
@@ -47,7 +126,7 @@ color: #2947A9;
 a#hm{
 width: 52px;
 height: 21px;
-font-family: 'Work Sans';
+/* font-family: 'Work Sans'; */
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -60,7 +139,7 @@ padding-right: 50px;
 a#abt{
 width: 81px;
 height: 21px;
-font-family: 'Work Sans';
+/* font-family: 'Work Sans'; */
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -73,7 +152,7 @@ padding-right: 50px;
 a#ps{
 width: 72px;
 height: 21px;
-font-family: 'Work Sans';
+/* font-family: 'Work Sans'; */
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -383,7 +462,7 @@ div.box3{
     border: 1.4px solid #E0E3EB;
     border-radius: 4px;
 }
-div#secondpage{
+/* div#secondpage{
 position: absolute;
 height: 945px;
 width: 100%;
@@ -391,7 +470,7 @@ left: 0px;
 right: 0px;
 top: 1159px;
 background: #FFFFFF;
-}
+} */
 img#man{
 position: absolute;
 width: 902px;
@@ -479,14 +558,14 @@ background: #2947A9;
 box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
 border-radius: 2px;
 }
-div#thirdpage{
+/* div#thirdpage{
 position: absolute;
 height: 608px;
 left: 0px;
 right: 0px;
 top: 2050px;
 background: #F6F8F7;
-}
+} */
 h3#works{
 position: absolute;
 height: 42px;
@@ -1000,14 +1079,14 @@ font-size: 24px;
 line-height: 28px;
 color: #FFFFFF;
 }
-div#fourthpage{
+/* div#fourthpage{
 position: absolute;
 height: 1098px;
 left: 0px;
 right: 0px;
 top: 3735px;
 background: #FFFFFF;
-}
+} */
 h2#projects{
 position: absolute;
 width: 148px;
@@ -1336,14 +1415,14 @@ line-height: 21px;
 text-align: center;
 color: #FFFFFF;
 }
-div#lastpage{
+/* div#lastpage{
 position: absolute;
 height: 632px;
 left: 0px;
 right: 0px;
 top: 4833px;
 background: #F6F8F7;
-}
+} */
 h3#you{
 position: absolute;
 width: 432px;
@@ -1492,14 +1571,14 @@ line-height: 21px;
 text-align: center;
 color: #FFFFFF;
 }
-footer#footer{
+/* footer#footer{
 position: absolute;
 height: 377px;
 left: 0px;
 right: 0px;
 top: 5465px;
 background: #FFFFFF;
-}
+} */
 b#add{
     position: absolute;
 left: 115px;
@@ -1683,3 +1762,4 @@ top: 260px;
 bottom: 2%;
 
 }
+
