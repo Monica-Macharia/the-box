@@ -9,28 +9,55 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <style>
-        .navigation-menu {}
+        .navigation-menu {
+            list-style-type: none;
+            float: right;
         
+            /* display: inline; */
+            /* float: left; */
+            
+        }
+        .navigation-menu ul {
+            list-style-type: none;
+            /* display: inline; */
+            /* float: left; */
+            overflow: hidden;
+        }
+        .navigation-menu {
+            list-style-type: none;
+            /* display: inline; */
+            /* float: left; */
+            
+        }
+        li{
+            float: left;
+        }
 
 
         .navigation-menu a {
+            display: block;
             font-size: 14px;
             font-weight: bold;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            padding: 20px;
         }
         
     </style>
 </head>
 <body>
-    <div id="firstpage">
+    <main>
+    <section id="firstpage">
         <nav id="nav">
             <img id="tbox" src="./images/logog.png" alt="logo"/> 
             <h2 id="thebox"><em>The</em>Box</h2>
             <ul class="navigation-menu">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#secondpage">About Us</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact Us</a></li>
+                <li><a href="#thirdpage">Services</a></li>
+                <li><a href="#fourthpage">Projects</a></li>
+                <li><a href="#lastpage">Contact Us</a></li>
             </ul>
         </nav>
 
@@ -48,7 +75,7 @@
                <button id="next">Next<img id="arrown" src="./images/Vector.png" alt="arrow"/></button>
             </div>
                
-            </div>
+        </div>
             
         
         <div id="reputation">
@@ -69,9 +96,9 @@
                 <p id="ipsum">Ultricies at ipsum nunc, tristique nam lectus.</p>
             </div>
         </div>
-    </div>
+    </section>
 
-     <div id="secondpage">
+     <section id="secondpage">
         <img id="man" src="./images/man.png" alt="person"/>
         <div id="about">
             <h3 id="info">About us</h3>
@@ -81,9 +108,9 @@
             <button id="work"><p id="more">More on Our History</p></button>
 
         </div>
-    </div>
+    </section>
 
-    <div id= "thirdpage">
+    <section id= "thirdpage">
         <h3 id="works">Services</h3>
         <div id="white">
            <img src="./images/construction.png" alt="LOGO1"/>
@@ -157,9 +184,9 @@
                      <p id ="away">Just one call away: <u>+84 1102 2703</u></p>
                 </div>
 
-    </div>
+            </section>
 
-    <div id="fourthpage">
+    <section id="fourthpage">
         <div class="highlights">
             <h2 id="projects">Projects</h2> 
             <img id="bar" src="./images/bar.png" alt="bar"/>
@@ -199,9 +226,9 @@
         <button id="prev"><img src="./images/back.png" alt="back"/> <p id="exit">Back</p></button>
         <img id="dots" src="./images/dots.png" alt="dots"/>
         <button id="coming"><p id="entry">Next</p> <img src="./images/Vector.png" alt="next"/></button>
-    </div>
+    </section>
 
-    <div id="lastpage">
+    <section id="lastpage">
         <h3 id="you">What can we do for you?</h3>
         <p id="ready">We are ready to work on a project of any complexity, </br>
         whether it's commercial or residential.</p>
@@ -214,7 +241,7 @@
             <p id="style"><b  style="color:red;">* </b> indicates a required field</p>
             <button id="it"><p id="txt">Submit</p></button>
         </form>
-    </div>
+    </section>
 
         <footer id="footer">
             <p><b id="add">ADDRESS:</b> <p id="dela">6391 Elgin St. Celina, Delaware 10299</p></p>
@@ -239,7 +266,7 @@
 
         </footer>
      <img id="foot" src="./images/Footer.png" alt="foot"/>
-    
+</main>  
 </body>
 <link rel="stylesheet" href="index.css"/>
 </html>
