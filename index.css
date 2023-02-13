@@ -2,6 +2,9 @@ html *{
     font-family: 'Playfair Display', serif;
 
 }
+/* div.img{
+    background-image: "../images/crop.jpeg";
+} */
 body{
     /* display: flex; */
     display: grid;
