@@ -5,19 +5,19 @@ html *{
 /* div.img{
     background-image: "../images/crop.jpeg";
 } */
-body{
+/* body{
     /* display: flex; */
-    display: grid;
-    align-items: left;
-    grid-template-areas:
-    "firstpage"
+    /* display: grid; */
+    /* align-items: left;
+    grid-template-areas: */
+    /* "firstpage"
     "secondpage"
     "thirdpage"
     "fourthpage"
     "lastpage"
-    "footer";
+    "footer"; */
    
-}
+/* } */ */
   /* div#firstpage{
         order: 1;
     }
@@ -47,7 +47,7 @@ body{
          grid-row: 5 / 2;
     } */
    
-    div#firstpage{
+    /* div#firstpage{
         grid-area: firstpage;
         grid-row: 1 / 2;
     }
@@ -75,7 +75,7 @@ body{
         grid-area: footer;
          grid-row: 5 / 2;
          background: #FFFFFF;
-    }  */
+    }  */ */
 
 
 
@@ -253,19 +253,19 @@ bottom: -40px;
 background: #292E3D;
 color: white;
 }
-/* div#project{
+div#project{
 display: flex;
 flex-direction: column;
 align-items: center;
-/* padding: 20px 10px 10px; */
-/* position: absolute;
+padding: 20px 10px 10px;
+ position: absolute;
 width: 416px;
 height: 150px;
 right: -36px;
 bottom: -70px;
 background: #3559C7;
 border-radius: 2px 2px 0px 0px;
-} */ 
+} 
 h4#title{
 font-family: 'Work Sans';
 font-style: normal;
@@ -465,7 +465,7 @@ div.box3{
     border: 1.4px solid #E0E3EB;
     border-radius: 4px;
 }
-/* div#secondpage{
+div#secondpage{
 position: absolute;
 height: 945px;
 width: 100%;
@@ -473,7 +473,7 @@ left: 0px;
 right: 0px;
 top: 1159px;
 background: #FFFFFF;
-} */
+}
 img#man{
 position: absolute;
 width: 902px;
@@ -561,14 +561,14 @@ background: #2947A9;
 box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
 border-radius: 2px;
 }
-/* div#thirdpage{
+div#thirdpage{
 position: absolute;
 height: 608px;
 left: 0px;
 right: 0px;
 top: 2050px;
 background: #F6F8F7;
-} */
+}
 h3#works{
 position: absolute;
 height: 42px;
@@ -1082,14 +1082,14 @@ font-size: 24px;
 line-height: 28px;
 color: #FFFFFF;
 }
-/* div#fourthpage{
+div#fourthpage{
 position: absolute;
 height: 1098px;
 left: 0px;
 right: 0px;
 top: 3735px;
 background: #FFFFFF;
-} */
+}
 h2#projects{
 position: absolute;
 width: 148px;
@@ -1418,14 +1418,14 @@ line-height: 21px;
 text-align: center;
 color: #FFFFFF;
 }
-/* div#lastpage{
+div#lastpage{
 position: absolute;
 height: 632px;
 left: 0px;
 right: 0px;
 top: 4833px;
 background: #F6F8F7;
-} */
+}
 h3#you{
 position: absolute;
 width: 432px;
@@ -1574,14 +1574,14 @@ line-height: 21px;
 text-align: center;
 color: #FFFFFF;
 }
-/* footer#footer{
+footer#footer{
 position: absolute;
 height: 377px;
 left: 0px;
 right: 0px;
 top: 5465px;
 background: #FFFFFF;
-} */
+}
 b#add{
     position: absolute;
 left: 115px;
