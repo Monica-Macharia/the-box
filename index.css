@@ -2,6 +2,15 @@ html *{
     font-family: 'Playfair Display', serif;
 
 }
+a:visited{
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: blue
+}
 /* div.img{
     background-image: "../images/crop.jpeg";
 } */
@@ -196,11 +205,12 @@ div#class{
    
 }
 nav#nav{
-position: absolute;
+position: fixed;
 height: 80px;
 left: 0px;
 right: 0px;
 top: 0px;
+bottom: 0px;
 background: #FFFFFF;
 display:inline-block;
 }
@@ -214,7 +224,7 @@ top: 70px;
 background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.jpeg);
 
 }
-div#feat{
+/* div#feat{
     position: absolute;
     width: 416px;
     height: 147px;
@@ -224,7 +234,7 @@ div#feat{
     border-radius: 2px 2px 0px 0px;
     align-items: center;
     
-}
+} */
 button#back{
     display: flex;
     flex-direction: row;
@@ -259,10 +269,11 @@ flex-direction: column;
 align-items: center;
 padding: 20px 10px 10px;
  position: absolute;
-width: 416px;
+width: 396px;
 height: 150px;
 right: -36px;
 bottom: -70px;
+top: 500px;
 background: #3559C7;
 border-radius: 2px 2px 0px 0px;
 } 
